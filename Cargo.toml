@@ -18,5 +18,6 @@ reqwest = "0.11.10"
 
 [dependencies]
 actix-web = "4.0.1"
+serde = { version = "1", features = ["derive"]}
 tokio = { version = "1.17.0", features = ["full"] }
 
